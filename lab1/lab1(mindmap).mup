@@ -1,0 +1,161 @@
+{
+  "title": "Книга",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "0.5": {
+      "title": "Форум",
+      "id": 37,
+      "ideas": {
+        "1": {
+          "title": "Сущности",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "Пользователь",
+              "id": 15,
+              "attr": {
+                "position": [
+                  131.5,
+                  -278.25,
+                  5
+                ],
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Логин/Пароль",
+                  "id": 16
+                },
+                "2": {
+                  "title": "Email",
+                  "id": 17
+                },
+                "3": {
+                  "title": "ФИО",
+                  "id": 18
+                }
+              }
+            },
+            "2": {
+              "title": "Отзыв",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "Оценка",
+                  "id": 19,
+                  "attr": {
+                    "position": [
+                      163.5,
+                      -81.25,
+                      1
+                    ],
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "Комментарий",
+                  "id": 20,
+                  "attr": {}
+                },
+                "3": {
+                  "title": "Дата",
+                  "id": 30
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Информация о книге",
+              "id": 22,
+              "attr": {
+                "style": {},
+                "position": [
+                  91.5,
+                  172.48507125007268,
+                  4
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "Объем",
+                  "id": 24
+                },
+                "2": {
+                  "title": "Дата написания",
+                  "id": 26
+                },
+                "3": {
+                  "title": "Автор",
+                  "id": 28
+                },
+                "4": {
+                  "title": "Название",
+                  "id": 29
+                },
+                "5": {
+                  "title": "Издатель",
+                  "id": 36
+                },
+                "6": {
+                  "title": "Жанр",
+                  "id": 38
+                },
+                "7": {
+                  "title": "Стоимость",
+                  "id": 39
+                },
+                "0.5": {
+                  "title": "Рейтинг",
+                  "id": 40,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 11,
+      "ideaIdTo": 15,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 40,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    }
+  ],
+  "attr": {
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "style": {},
+    "storyboard-scenes": [
+      {
+        "storyboards": {
+          "Storyboard 1": 1
+        }
+      }
+    ]
+  }
+}
