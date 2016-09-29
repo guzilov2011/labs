@@ -4,6 +4,6 @@ def min(arr1):  #минимальное значение
         if el < minimal: #если элемент меньше минимального 
             minimal = el #то обновляем минимальное значение
     return minimal
-arr1 = [8, 5, 6, 9, 2, 1, 78]
+arr1 = [1, 4, 88, 34, 39, 43, 45]
 print(min(arr1))
 print(sum(arr1) / len(arr1)) #среднее значение
