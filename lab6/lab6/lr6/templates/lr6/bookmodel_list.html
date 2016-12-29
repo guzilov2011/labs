@@ -1,0 +1,8 @@
+<h1>Книги:</h1>
+<ul>
+{% for book in object_list %}
+    <li>"{{ book.name }}" - {{ book.author }}, Изд.: {{ book.publisher }}, {{ book.author }} стр.</li>
+{% empty %}
+    <li>No books yet.</li>
+{% endfor %}
+</ul>
