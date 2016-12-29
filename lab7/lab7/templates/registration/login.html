@@ -1,0 +1,18 @@
+<html>
+<body>
+    <form action ="login" method="POST">
+        {% for e in form.non_field_errors %}
+                    {{ e }}
+        {% endfor %}
+        {% csrf_token %}
+        
+        <p>{{ form.username.label }}</p>
+        <p>{{ form.username }}</p>
+        <p>{{ form.password.label }}</p>
+        <p>{{ form.password }}</p>
+     
+<button> Log In </button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+<body>
+
+    {% if request.user.is_authenticated %}
+        You are loggin in {{ request.user.login }}
+        <a href="{% url 'logout' %}?continue={{ request.path }}"> LOGOUT </a>
+    {% else %}
+        <p><a href="{% url 'login' %}?continue={{ request.path }}"> come here, bro </a></p>
+        <p><a href="{% url 'registration' %}?continue={{ request.path}}"> join the army </a></p>
+    {% endif %}
+
+</body>
+</html>

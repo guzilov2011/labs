@@ -1,0 +1,18 @@
+<html>
+    <form action ='registration' method = "POST">
+        {% for e in form.non_field_errors %}
+            {{ e }}
+        {% endfor %}
+        {% csrf_token %}
+        {% for field in form %}
+        <p>{{ field.label }}</p>
+        <p>{{ field }}</p>
+        {% if field.errors %} 
+            {% for e in field.errors %}
+                {{ e }}
+            {% endfor %}
+        {% endif %}
+        {% endfor %}
+        <button>Sign up!</button>
+    </form>
+</html>
